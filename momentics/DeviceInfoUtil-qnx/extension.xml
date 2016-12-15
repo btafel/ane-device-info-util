@@ -1,0 +1,20 @@
+<extension xmlns="http://ns.adobe.com/air/extension/2.5">
+    <id>com.wallwizz.scoreloopane</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+        <platform name="QNX-x86">
+            <applicationDeployment>
+                <nativeLibrary>libDeviceInfoUtil-qnx-x86.so</nativeLibrary>
+                <initializer>DeviceInfoUtilExtInitializer</initializer>
+                <finalizer>DeviceInfoUtilExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+        <platform name="QNX-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libDeviceInfoUtil-qnx-arm.so</nativeLibrary>
+                <initializer>DeviceInfoUtilExtInitializer</initializer>
+                <finalizer>DeviceInfoUtilExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>
