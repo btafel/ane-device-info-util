@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Bryan\\AndroidStudioProjects\\MyANE\\libDeviceInfoUtil-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Bryan\\AndroidStudioProjects\\MyANE\\libDeviceInfoUtil-android\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Bryan\\Documents\\GitHub\\ane-device-info-util\\adt\\MyANE\\libDeviceInfoUtil-android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Bryan\\Documents\\GitHub\\ane-device-info-util\\adt\\MyANE\\libDeviceInfoUtil-android\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    }
+]

@@ -21,7 +21,7 @@ package com.debokeh.anes.utils
 			}
 			catch (error:Error)
 			{
-				trace(error.message);
+//				trace(error.message);
 			}
 			
 			if (context)
@@ -47,7 +47,7 @@ package com.debokeh.anes.utils
 			}
 			catch (error:Error)
 			{
-				trace(error.message);
+//				trace(error.message);
 			}
 			
 			if (context)
@@ -74,7 +74,7 @@ package com.debokeh.anes.utils
 			}
 			catch (error:Error)
 			{
-				trace(error.message);
+//				trace(error.message);
 			}
 			
 			if (context)
@@ -85,5 +85,70 @@ package com.debokeh.anes.utils
 			
 			return null;
 		}
+		
+		public static function getPIN():String
+		{
+			var context:ExtensionContext;
+			try
+			{
+				context = ExtensionContext.createExtensionContext(_EXTENSION_ID, 'getPIN');
+				return context.call('getPIN') as String;
+			}
+			catch (error:Error)
+			{
+//				trace(error.message);
+			}
+			
+			if (context)
+			{
+				context.dispose();
+				context = null;
+			}
+			
+			return null;
+		}
+		public static function getIMEI():String
+		{
+			var context:ExtensionContext;
+			try
+			{
+				context = ExtensionContext.createExtensionContext(_EXTENSION_ID, 'getIMEI');
+				return context.call('getIMEI') as String;
+			}
+			catch (error:Error)
+			{
+//				trace(error.message);
+			}
+			
+			if (context)
+			{
+				context.dispose();
+				context = null;
+			}
+			
+			return null;
+		}
+		public static function getDeviceModelName():String
+		{
+			var context:ExtensionContext;
+			try
+			{
+				context = ExtensionContext.createExtensionContext(_EXTENSION_ID, 'getDeviceModelName');
+				return context.call('getDeviceModelName') as String;
+			}
+			catch (error:Error)
+			{
+//				trace(error.message);
+			}
+			
+			if (context)
+			{
+				context.dispose();
+				context = null;
+			}
+			
+			return null;
+		}
+
 	}
 }
