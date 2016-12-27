@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Bryan\Documents\GitHub\ane-device-info-util\adt\MyANE\libDeviceInfoUtil-android\src\main\assets"/><source path="C:\Users\Bryan\Documents\GitHub\ane-device-info-util\adt\MyANE\libDeviceInfoUtil-android\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\Bryan\Documents\GitHub\ane-device-info-util\adt\MyANE\libDeviceInfoUtil-android\src\release\assets"/></dataSet></merger>
