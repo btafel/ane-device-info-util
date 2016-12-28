@@ -1,0 +1,13 @@
+	<extension xmlns="http://ns.adobe.com/air/extension/13.0">
+		<id>com.mofiler.anes.Mofiler</id>
+		<versionNumber>2.0.0</versionNumber>
+		<platforms>
+			<platform name="Android-ARM">
+				<applicationDeployment>
+					<nativeLibrary>libMofiler-android.jar</nativeLibrary>
+					<initializer>MofilerExtInitializer</initializer>
+					<finalizer>MofilerExtFinalizer</finalizer>
+				</applicationDeployment>
+			</platform>
+		</platforms>
+	</extension>

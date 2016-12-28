@@ -17,8 +17,7 @@ public class GetCurrentDeviceNameFunction implements FREFunction {
 		Log.d(TAG, "called.");
 		FREObject result = null;
 		try {
-//			result = FREObject.newObject(Build.USER);
-			result = FREObject.newObject("nameeeee");
+			result = FREObject.newObject(Build.USER);
 		} catch (FREWrongThreadException e) {
 			e.printStackTrace();
 		}

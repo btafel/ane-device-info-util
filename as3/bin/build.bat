@@ -1,4 +1,3 @@
-#!/bin/bash
 winrar e ..\..\adt\DeviceInfoUtil-android\libDeviceInfoUtil-android\build\outputs\aar\libDeviceInfoUtil-android-release.aar classes.jar -y ..\..\adt\DeviceInfoUtil-android\libDeviceInfoUtil-android\build\outputs\aar\ 
 copy ..\..\adt\DeviceInfoUtil-android\libDeviceInfoUtil-android\build\outputs\aar\classes.jar libDeviceInfoUtil-android.jar /Y 
 echo "packing ane-device-info-util..."

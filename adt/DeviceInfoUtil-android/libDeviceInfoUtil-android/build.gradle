@@ -19,4 +19,5 @@ android {
 
 dependencies {
     compile files('libs/FlashRuntimeExtensions.jar')
+    compile files('libs/mofiler-sdk.jar')
 }
