@@ -10,7 +10,7 @@
     </features>
     <libraries>
         <library path="library.swf">
-            <script name="com/mofiler/anes/Mofiler" mod="1482899766587">
+            <script name="com/mofiler/anes/Mofiler" mod="1482903884911">
                 <def id="com.mofiler.anes:Mofiler"/>
                 <dep id="Boolean" type="s"/>
                 <dep id="Error" type="s"/>
@@ -20,7 +20,7 @@
                 <dep id="trace" type="e"/>
             </script>
             <digests>
-                <digest type="SHA-256" signed="false" value="26244daeaaaf8adff098248f5c09c3b395c5c3c696fd22615dd030287b2ac85a"/>
+                <digest type="SHA-256" signed="false" value="6266732f6b186dbb1e6f62b835344c161346582295ee23d7a9358b36f09d806b"/>
             </digests>
         </library>
     </libraries>

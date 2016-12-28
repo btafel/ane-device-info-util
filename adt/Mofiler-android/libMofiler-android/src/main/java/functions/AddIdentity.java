@@ -2,6 +2,7 @@ package functions;
 
 import android.util.Log;
 
+import com.adobe.fre.FREArray;
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
@@ -18,7 +19,8 @@ public class AddIdentity implements FREFunction {
 		try {
 
 			Mofiler mof = Mofiler.getInstance(arg0.getActivity());
-			mof.addIdentity(arg1[0].getAsString(), arg1[1].getAsString());
+			FREArray arr = (FREArray)arg1[0];
+			mof.addIdentity(arr.getObjectAt(0).getAsString(), arr.getObjectAt(1).getAsString());
 			result = FREObject.newObject(true);
 		} catch (Exception e) {
 //			e.printStackTrace();

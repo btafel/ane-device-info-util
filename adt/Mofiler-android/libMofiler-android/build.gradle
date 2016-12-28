@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 14
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 24
+    buildToolsVersion '24.0.0'
 
     defaultConfig {
 //        applicationId "com.mofiler.extension.Mofiler_android"
-        minSdkVersion 14
-        targetSdkVersion 18
+        minSdkVersion 8
+        targetSdkVersion 22
     }
 
     buildTypes {
@@ -19,5 +19,7 @@ android {
 
 dependencies {
     compile files('libs/FlashRuntimeExtensions.jar')
-    releaseCompile files('libs/mofiler-sdk.jar')
+    compile files('libs/mofiler-sdk.jar')
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.volley:volley:1.0.0'
 }

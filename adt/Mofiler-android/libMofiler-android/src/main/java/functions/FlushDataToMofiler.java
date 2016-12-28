@@ -20,8 +20,9 @@ public class FlushDataToMofiler implements FREFunction {
 			Log.d(TAG, "before mof.");
 			Log.d(TAG, "before mof act:" + arg0.getActivity().getPackageName());
 			Mofiler mof = Mofiler.getInstance(arg0.getActivity());
-			Log.d(TAG, "appKey"+mof);
-			Log.d(TAG, "appKey"+mof.getAppKey());
+//			Log.d(TAG, "appKey"+mof);
+			Log.d(TAG, "appKey:"+mof.getAppKey());
+			Log.d(TAG, "appURL:"+mof.getURL());
 			mof.flushDataToMofiler();
 			result = FREObject.newObject(true);
 		} catch (Exception e) {
